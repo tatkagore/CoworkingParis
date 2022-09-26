@@ -1,0 +1,594 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7B3DBFEB28E1921300AC0461 /* CoworkingParisApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3DBFEA28E1921300AC0461 /* CoworkingParisApp.swift */; };
+		7B3DBFED28E1921300AC0461 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3DBFEC28E1921300AC0461 /* ContentView.swift */; };
+		7B3DBFEF28E1921400AC0461 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B3DBFEE28E1921400AC0461 /* Assets.xcassets */; };
+		7B3DBFF228E1921400AC0461 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B3DBFF128E1921400AC0461 /* Preview Assets.xcassets */; };
+		7B3DBFFC28E1921400AC0461 /* CoworkingParisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3DBFFB28E1921400AC0461 /* CoworkingParisTests.swift */; };
+		7B3DC00628E1921400AC0461 /* CoworkingParisUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3DC00528E1921400AC0461 /* CoworkingParisUITests.swift */; };
+		7B3DC00828E1921400AC0461 /* CoworkingParisUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3DC00728E1921400AC0461 /* CoworkingParisUITestsLaunchTests.swift */; };
+		7B3DC01528E193C600AC0461 /* places.json in Resources */ = {isa = PBXBuildFile; fileRef = 7B3DC01428E193C600AC0461 /* places.json */; };
+		7B3DC01728E1950000AC0461 /* JsonManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3DC01628E1950000AC0461 /* JsonManager.swift */; };
+		7B3DC01928E19F7E00AC0461 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3DC01828E19F7E00AC0461 /* DetailView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7B3DBFF828E1921400AC0461 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B3DBFDF28E1921300AC0461 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7B3DBFE628E1921300AC0461;
+			remoteInfo = CoworkingParis;
+		};
+		7B3DC00228E1921400AC0461 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B3DBFDF28E1921300AC0461 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7B3DBFE628E1921300AC0461;
+			remoteInfo = CoworkingParis;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7B3DBFE728E1921300AC0461 /* CoworkingParis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoworkingParis.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B3DBFEA28E1921300AC0461 /* CoworkingParisApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoworkingParisApp.swift; sourceTree = "<group>"; };
+		7B3DBFEC28E1921300AC0461 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7B3DBFEE28E1921400AC0461 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7B3DBFF128E1921400AC0461 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7B3DBFF728E1921400AC0461 /* CoworkingParisTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoworkingParisTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B3DBFFB28E1921400AC0461 /* CoworkingParisTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoworkingParisTests.swift; sourceTree = "<group>"; };
+		7B3DC00128E1921400AC0461 /* CoworkingParisUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoworkingParisUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B3DC00528E1921400AC0461 /* CoworkingParisUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoworkingParisUITests.swift; sourceTree = "<group>"; };
+		7B3DC00728E1921400AC0461 /* CoworkingParisUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoworkingParisUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7B3DC01428E193C600AC0461 /* places.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = places.json; path = ../../../Downloads/places.json; sourceTree = "<group>"; };
+		7B3DC01628E1950000AC0461 /* JsonManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonManager.swift; sourceTree = "<group>"; };
+		7B3DC01828E19F7E00AC0461 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7B3DBFE428E1921300AC0461 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B3DBFF428E1921400AC0461 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B3DBFFE28E1921400AC0461 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7B3DBFDE28E1921300AC0461 = {
+			isa = PBXGroup;
+			children = (
+				7B3DBFE928E1921300AC0461 /* CoworkingParis */,
+				7B3DBFFA28E1921400AC0461 /* CoworkingParisTests */,
+				7B3DC00428E1921400AC0461 /* CoworkingParisUITests */,
+				7B3DBFE828E1921300AC0461 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7B3DBFE828E1921300AC0461 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7B3DBFE728E1921300AC0461 /* CoworkingParis.app */,
+				7B3DBFF728E1921400AC0461 /* CoworkingParisTests.xctest */,
+				7B3DC00128E1921400AC0461 /* CoworkingParisUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7B3DBFE928E1921300AC0461 /* CoworkingParis */ = {
+			isa = PBXGroup;
+			children = (
+				7B3DBFEA28E1921300AC0461 /* CoworkingParisApp.swift */,
+				7B3DBFEC28E1921300AC0461 /* ContentView.swift */,
+				7B3DC01628E1950000AC0461 /* JsonManager.swift */,
+				7B3DC01828E19F7E00AC0461 /* DetailView.swift */,
+				7B3DBFEE28E1921400AC0461 /* Assets.xcassets */,
+				7B3DC01428E193C600AC0461 /* places.json */,
+				7B3DBFF028E1921400AC0461 /* Preview Content */,
+			);
+			path = CoworkingParis;
+			sourceTree = "<group>";
+		};
+		7B3DBFF028E1921400AC0461 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7B3DBFF128E1921400AC0461 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7B3DBFFA28E1921400AC0461 /* CoworkingParisTests */ = {
+			isa = PBXGroup;
+			children = (
+				7B3DBFFB28E1921400AC0461 /* CoworkingParisTests.swift */,
+			);
+			path = CoworkingParisTests;
+			sourceTree = "<group>";
+		};
+		7B3DC00428E1921400AC0461 /* CoworkingParisUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7B3DC00528E1921400AC0461 /* CoworkingParisUITests.swift */,
+				7B3DC00728E1921400AC0461 /* CoworkingParisUITestsLaunchTests.swift */,
+			);
+			path = CoworkingParisUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7B3DBFE628E1921300AC0461 /* CoworkingParis */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B3DC00B28E1921400AC0461 /* Build configuration list for PBXNativeTarget "CoworkingParis" */;
+			buildPhases = (
+				7B3DBFE328E1921300AC0461 /* Sources */,
+				7B3DBFE428E1921300AC0461 /* Frameworks */,
+				7B3DBFE528E1921300AC0461 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoworkingParis;
+			productName = CoworkingParis;
+			productReference = 7B3DBFE728E1921300AC0461 /* CoworkingParis.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7B3DBFF628E1921400AC0461 /* CoworkingParisTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B3DC00E28E1921400AC0461 /* Build configuration list for PBXNativeTarget "CoworkingParisTests" */;
+			buildPhases = (
+				7B3DBFF328E1921400AC0461 /* Sources */,
+				7B3DBFF428E1921400AC0461 /* Frameworks */,
+				7B3DBFF528E1921400AC0461 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7B3DBFF928E1921400AC0461 /* PBXTargetDependency */,
+			);
+			name = CoworkingParisTests;
+			productName = CoworkingParisTests;
+			productReference = 7B3DBFF728E1921400AC0461 /* CoworkingParisTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7B3DC00028E1921400AC0461 /* CoworkingParisUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B3DC01128E1921400AC0461 /* Build configuration list for PBXNativeTarget "CoworkingParisUITests" */;
+			buildPhases = (
+				7B3DBFFD28E1921400AC0461 /* Sources */,
+				7B3DBFFE28E1921400AC0461 /* Frameworks */,
+				7B3DBFFF28E1921400AC0461 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7B3DC00328E1921400AC0461 /* PBXTargetDependency */,
+			);
+			name = CoworkingParisUITests;
+			productName = CoworkingParisUITests;
+			productReference = 7B3DC00128E1921400AC0461 /* CoworkingParisUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7B3DBFDF28E1921300AC0461 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					7B3DBFE628E1921300AC0461 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					7B3DBFF628E1921400AC0461 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 7B3DBFE628E1921300AC0461;
+					};
+					7B3DC00028E1921400AC0461 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 7B3DBFE628E1921300AC0461;
+					};
+				};
+			};
+			buildConfigurationList = 7B3DBFE228E1921300AC0461 /* Build configuration list for PBXProject "CoworkingParis" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7B3DBFDE28E1921300AC0461;
+			productRefGroup = 7B3DBFE828E1921300AC0461 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7B3DBFE628E1921300AC0461 /* CoworkingParis */,
+				7B3DBFF628E1921400AC0461 /* CoworkingParisTests */,
+				7B3DC00028E1921400AC0461 /* CoworkingParisUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7B3DBFE528E1921300AC0461 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B3DC01528E193C600AC0461 /* places.json in Resources */,
+				7B3DBFF228E1921400AC0461 /* Preview Assets.xcassets in Resources */,
+				7B3DBFEF28E1921400AC0461 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B3DBFF528E1921400AC0461 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B3DBFFF28E1921400AC0461 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7B3DBFE328E1921300AC0461 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B3DC01728E1950000AC0461 /* JsonManager.swift in Sources */,
+				7B3DC01928E19F7E00AC0461 /* DetailView.swift in Sources */,
+				7B3DBFED28E1921300AC0461 /* ContentView.swift in Sources */,
+				7B3DBFEB28E1921300AC0461 /* CoworkingParisApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B3DBFF328E1921400AC0461 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B3DBFFC28E1921400AC0461 /* CoworkingParisTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B3DBFFD28E1921400AC0461 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B3DC00828E1921400AC0461 /* CoworkingParisUITestsLaunchTests.swift in Sources */,
+				7B3DC00628E1921400AC0461 /* CoworkingParisUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7B3DBFF928E1921400AC0461 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7B3DBFE628E1921300AC0461 /* CoworkingParis */;
+			targetProxy = 7B3DBFF828E1921400AC0461 /* PBXContainerItemProxy */;
+		};
+		7B3DC00328E1921400AC0461 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7B3DBFE628E1921300AC0461 /* CoworkingParis */;
+			targetProxy = 7B3DC00228E1921400AC0461 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7B3DC00928E1921400AC0461 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7B3DC00A28E1921400AC0461 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7B3DC00C28E1921400AC0461 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CoworkingParis/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Tatiana-Simmer.CoworkingParis";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7B3DC00D28E1921400AC0461 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CoworkingParis/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Tatiana-Simmer.CoworkingParis";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7B3DC00F28E1921400AC0461 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Tatiana-Simmer.CoworkingParisTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoworkingParis.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CoworkingParis";
+			};
+			name = Debug;
+		};
+		7B3DC01028E1921400AC0461 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Tatiana-Simmer.CoworkingParisTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoworkingParis.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CoworkingParis";
+			};
+			name = Release;
+		};
+		7B3DC01228E1921400AC0461 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Tatiana-Simmer.CoworkingParisUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CoworkingParis;
+			};
+			name = Debug;
+		};
+		7B3DC01328E1921400AC0461 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Tatiana-Simmer.CoworkingParisUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CoworkingParis;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7B3DBFE228E1921300AC0461 /* Build configuration list for PBXProject "CoworkingParis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B3DC00928E1921400AC0461 /* Debug */,
+				7B3DC00A28E1921400AC0461 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B3DC00B28E1921400AC0461 /* Build configuration list for PBXNativeTarget "CoworkingParis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B3DC00C28E1921400AC0461 /* Debug */,
+				7B3DC00D28E1921400AC0461 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B3DC00E28E1921400AC0461 /* Build configuration list for PBXNativeTarget "CoworkingParisTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B3DC00F28E1921400AC0461 /* Debug */,
+				7B3DC01028E1921400AC0461 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B3DC01128E1921400AC0461 /* Build configuration list for PBXNativeTarget "CoworkingParisUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B3DC01228E1921400AC0461 /* Debug */,
+				7B3DC01328E1921400AC0461 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7B3DBFDF28E1921300AC0461 /* Project object */;
+}
