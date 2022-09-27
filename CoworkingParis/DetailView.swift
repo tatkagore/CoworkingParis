@@ -12,27 +12,46 @@ struct DetailView: View {
     var body: some View {
         NavigationView {
             ZStack {
-                LinearGradient(gradient: Gradient(colors: [.white, .yellow, .orange]), startPoint: .top, endPoint: .bottom)
-
-                VStack(spacing: 10){
-                    HStack {
+                ZStack {
+                    VStack(spacing: 10){
+                        HStack {
+                            Text("\(cafe.name)")
+                                .font(.title)
+                                .fontWeight(.bold)
+                                .foregroundColor(Color.accentColor)
+                            Text("☕️")
+                        }
+                        HStack {
+                            Text("\(cafe.address)")
+                                .font(.headline)
+                                .foregroundColor(Color.accentColor)
+                            Text("📍")
+                        }
+                        HStack {
+                            
+                            Link("Visitez notre site 👈🏻 ",destination: URL(string: "\(cafe.url)")!)
+                                .foregroundColor(Color.accentColor)
+                                .font(.headline)
+                        }
+                        if cafe.wifi == true {
+                            Text("Free WI-FI ")
+                                .foregroundColor(Color.accentColor)
+                                .font(.headline)
+                        } else {
+                            Text("No WI-FI")
+                                .foregroundColor(Color.accentColor)
+                                .font(.headline)
+                        }
+                        
                         Text("\(cafe.name)")
-                            .font(.title)
-                            .fontWeight(.bold)
-                        Text("☕️")
-                    }
-                    HStack {
-                        Text("\(cafe.address)")
                             .font(.headline)
-                        Text("📍")
+                            .foregroundColor(Color.accentColor)
                     }
-                    HStack {
-                        Text("\(cafe.url)")
-                            .font(.headline)
-                    }
-                    Text("\(cafe.name)")
-                        .font(.headline)
                 }
+                Image("bottom")
+                    .offset(y: 280)
+                    .offset(x: -5)
+                    .opacity(0.7)
             }
             .ignoresSafeArea()
         }

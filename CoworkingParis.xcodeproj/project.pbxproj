@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7B3DBFEB28E1921300AC0461 /* CoworkingParisApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3DBFEA28E1921300AC0461 /* CoworkingParisApp.swift */; };
-		7B3DBFED28E1921300AC0461 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3DBFEC28E1921300AC0461 /* ContentView.swift */; };
+		7B3DBFED28E1921300AC0461 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3DBFEC28E1921300AC0461 /* MapView.swift */; };
 		7B3DBFEF28E1921400AC0461 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B3DBFEE28E1921400AC0461 /* Assets.xcassets */; };
 		7B3DBFF228E1921400AC0461 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B3DBFF128E1921400AC0461 /* Preview Assets.xcassets */; };
 		7B3DBFFC28E1921400AC0461 /* CoworkingParisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3DBFFB28E1921400AC0461 /* CoworkingParisTests.swift */; };
@@ -17,6 +17,8 @@
 		7B3DC01528E193C600AC0461 /* places.json in Resources */ = {isa = PBXBuildFile; fileRef = 7B3DC01428E193C600AC0461 /* places.json */; };
 		7B3DC01728E1950000AC0461 /* JsonManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3DC01628E1950000AC0461 /* JsonManager.swift */; };
 		7B3DC01928E19F7E00AC0461 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3DC01828E19F7E00AC0461 /* DetailView.swift */; };
+		7B3DC01D28E1E4DD00AC0461 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3DC01C28E1E4DD00AC0461 /* ListView.swift */; };
+		7B3DC01F28E1E62500AC0461 /* PickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3DC01E28E1E62500AC0461 /* PickerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +41,7 @@
 /* Begin PBXFileReference section */
 		7B3DBFE728E1921300AC0461 /* CoworkingParis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoworkingParis.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B3DBFEA28E1921300AC0461 /* CoworkingParisApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoworkingParisApp.swift; sourceTree = "<group>"; };
-		7B3DBFEC28E1921300AC0461 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7B3DBFEC28E1921300AC0461 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		7B3DBFEE28E1921400AC0461 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7B3DBFF128E1921400AC0461 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7B3DBFF728E1921400AC0461 /* CoworkingParisTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoworkingParisTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -50,6 +52,8 @@
 		7B3DC01428E193C600AC0461 /* places.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = places.json; path = ../../../Downloads/places.json; sourceTree = "<group>"; };
 		7B3DC01628E1950000AC0461 /* JsonManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonManager.swift; sourceTree = "<group>"; };
 		7B3DC01828E19F7E00AC0461 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		7B3DC01C28E1E4DD00AC0461 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		7B3DC01E28E1E62500AC0461 /* PickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,9 +105,11 @@
 			isa = PBXGroup;
 			children = (
 				7B3DBFEA28E1921300AC0461 /* CoworkingParisApp.swift */,
-				7B3DBFEC28E1921300AC0461 /* ContentView.swift */,
+				7B3DBFEC28E1921300AC0461 /* MapView.swift */,
 				7B3DC01628E1950000AC0461 /* JsonManager.swift */,
+				7B3DC01E28E1E62500AC0461 /* PickerView.swift */,
 				7B3DC01828E19F7E00AC0461 /* DetailView.swift */,
+				7B3DC01C28E1E4DD00AC0461 /* ListView.swift */,
 				7B3DBFEE28E1921400AC0461 /* Assets.xcassets */,
 				7B3DC01428E193C600AC0461 /* places.json */,
 				7B3DBFF028E1921400AC0461 /* Preview Content */,
@@ -269,7 +275,9 @@
 			files = (
 				7B3DC01728E1950000AC0461 /* JsonManager.swift in Sources */,
 				7B3DC01928E19F7E00AC0461 /* DetailView.swift in Sources */,
-				7B3DBFED28E1921300AC0461 /* ContentView.swift in Sources */,
+				7B3DC01F28E1E62500AC0461 /* PickerView.swift in Sources */,
+				7B3DC01D28E1E4DD00AC0461 /* ListView.swift in Sources */,
+				7B3DBFED28E1921300AC0461 /* MapView.swift in Sources */,
 				7B3DBFEB28E1921300AC0461 /* CoworkingParisApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

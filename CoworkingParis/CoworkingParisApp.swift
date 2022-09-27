@@ -11,7 +11,7 @@ import SwiftUI
 struct CoworkingParisApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            PickerView()
         }
     }
 }

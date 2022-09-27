@@ -8,7 +8,7 @@
 import SwiftUI
 import MapKit
 
-struct ContentView: View {
+struct MapView: View {
     
     var cafes: [CoworkingPlace] = CoworkingPlace.allCafes
     
@@ -24,7 +24,7 @@ struct ContentView: View {
                     NavigationLink(destination: DetailView(cafe: cafe)) {
                         VStack(alignment: .leading) {
                             Image(systemName: "pin.fill")
-                                .foregroundColor(Color.blue)
+                                .foregroundColor(.accentColor)
                         }
                     }
                 }
@@ -35,7 +35,7 @@ struct ContentView: View {
     
     struct ContentView_Previews: PreviewProvider {
         static var previews: some View {
-            ContentView()
+            MapView()
         }
     }
 }
